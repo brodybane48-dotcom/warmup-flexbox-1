@@ -7,13 +7,13 @@ font-size: 25px;
 max-width: 600px;
 margin: auto;
 background-color: rgb(201, 73, 99);
-padding: 20px;
 }
 
 .top-header{
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 20px;
 }
 
 .main-nav{
@@ -21,8 +21,27 @@ display: flex;
 justify-content: center;
 align-items: center;
 list-style-type: none;
+padding: 20px;
 }
 
 .item{
 margin: 0 50px;
+}
+
+.main-content{
+display: flex;
+max-width: 600px;
+margin: auto;
+flex-direction: row-reverse;
+}
+
+.side-nav{
+padding: 20px;
+margin-left: 20px;
+background-color: cornflowerblue;
+}
+
+.main{
+padding: 20px;
+background-color: darkorchid;
 }
