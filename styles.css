@@ -1,0 +1,28 @@
+body{
+margin: 0;
+font-size: 25px;
+}
+
+.header{
+max-width: 600px;
+margin: auto;
+background-color: rgb(201, 73, 99);
+padding: 20px;
+}
+
+.top-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.main-nav{
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+
+.item{
+margin: 0 50px;
+}
